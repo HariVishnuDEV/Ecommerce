@@ -37,7 +37,7 @@ export default function Product() {
         <h5 className="card-title">{props.title}</h5>
         <h6 className="d-flex justify-content-center text-info">{props.brand}</h6>
 
-        <h6 className="p-2  " style={{ color: "blue" }}>
+        <h6 className="p-2  " style={{ color: "red" }}>
           price:{`$${props.price}`}
         </h6>
         <h6 className="mt-2">Discount:{props.discountPercentage}%</h6>

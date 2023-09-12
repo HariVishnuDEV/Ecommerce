@@ -13,7 +13,7 @@ export default function ProductListItem(props) {
         className="border-radius-9 me-4"
       />
       <h5 className="card-title me-4">{props.title}</h5>
-      <h6 className="mt-2 me-4" style={{ color: "blue" }}>
+      <h6 className="mt-2 me-4" style={{ color: "red" }}>
         price:{`$${props.price}`}
       </h6>
       <h6 className="mt-2 me-4">Discount:{props.discountPercentage}%</h6>

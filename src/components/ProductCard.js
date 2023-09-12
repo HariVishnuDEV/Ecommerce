@@ -20,7 +20,7 @@ export default function ProductCart(props) {
       </div>
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
-        <h6 className="mt-3" style={{ color: "blue" }}>
+        <h6 className="mt-3" style={{ color: "red" }}>
           price:{`$${props.price}`}
         </h6>
         <h6 className="mt-2">Discount:{props.discountPercentage}%</h6>
